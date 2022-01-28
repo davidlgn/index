@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>QCM</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    
+    <h1>QCM</h1>
+    
+    <form class="name1">
+        <p> 
+        <label>Question 1</label><br/>
+        <p>Parmi ces choix, lesquels sont des protocoles de sécurité ?</p>
+        <input type="checkbox" name="choix1" value="a">SSL/TLS<br/>
+        <input type="checkbox" name="choix2" value="b">IPV4<br/>
+        <input type="checkbox" name="choix3" value="c">Sauce salade<br/><br/>
+        </p>
+    </form>
+    <!-- SSL/TLS -> a -->
+
+    <form class="name2">
+        <p> 
+        <label>Question 2</label><br/>
+        <p>Parmi ces choix, lequel n'est pas une fonction de hash.</p>
+        <input type="checkbox" name="choix1" value="a">RSA<br/>
+        <input type="checkbox" name="choix2" value="b">Sha1<br/>
+        <input type="checkbox" name="choix3" value="c">RS6<br/><br/>
+        </p>
+    </form>
+    <!-- Sha1 -> b -->
+
+    <form class="name3">
+        <p> 
+        <label>Question 3</label><br/>
+        <p>Parmi ces choix, lequel n'est pas un protocole de sécurtité ?</p>
+        <input type="checkbox" name="choix1" value="a">SSL<br/>
+        <input type="checkbox" name="choix2" value="b">OpenVPN<br/>
+        <input type="checkbox" name="choix3" value="c">WPA-PSK<br/><br/>
+        </p>
+    </form>
+    <!-- OpenVPN -> b -->
+
+    <form class="name4">
+        <p> 
+        <label>Question 4</label><br/>
+        <p>Parmi ces choix, lequels font parti des étapes de connexion du Bluetooth ?</p>
+        <input type="checkbox" name="choix1" value="a">Appairage<br/>
+        <input type="checkbox" name="choix2" value="b">Gestion des clés<br/>
+        <input type="checkbox" name="choix3" value="c" >Authentification<br/><br/>
+        </p>
+    </form>
+    <!-- a & c -->
+
+    <form class="name5">
+        <p> 
+        <label>Question 5</label><br/>
+        <p>Sur un site web e-commerce, qu'est-ce qui me certifie que la connexion est sécurisé ?</p>
+        <input type="checkbox" name="choix1" value="a">TLS<br/>
+        <input type="checkbox" name="choix2" value="b">SSL/TLS<br/>
+        <input type="checkbox" name="choix3" value="c">Hachimura<br/><br/>
+        </p>
+    </form>
+    <!-- SSL/TLS -> b -->
+
+    <form class="name6">
+        <p> 
+        <label>Question 6</label><br/>
+        <p>Parmi ces choix, lequel n'est pas VPN ?</p>
+        <input type="checkbox" name="choix1" value="a">NordVPN<br/>
+        <input type="checkbox" name="choix2" value="b">VyprVPN<br/>
+        <input type="checkbox" name="choix3" value="c">AyVPN<br/><br/>
+        </p>
+    </form>
+    <!-- AyVPN -> c -->
+
+    <form class="name7">
+        <p> 
+        <label>Question 7</label><br/>
+        <p>Qu'est-ce qui n'est pas une couche du modèle OSI ?</p>
+        <input type="checkbox" name="choix1" value="a">Couche Application<br/>
+        <input type="checkbox" name="choix2" value="b">Couche Physique<br/>
+        <input type="checkbox" name="choix3" value="c">Couche Supérieur<br/><br/>
+        </p>
+    </form>
+    <!-- Couche Supérieur -> c -->
+
+    <form class="name8">
+        <p> 
+        <label>Question 8</label><br/>
+        <p>Parmi ces choix, lesquels sont des sites sécurisées</p>
+        <input type="checkbox" name="choix1" value="a">https://google/com<br/>
+        <input type="checkbox" name="choix2" value="b">https://amazon.com<br/>
+        <input type="checkbox" name="choix3" value="c">http://ay.com<br/><br/>
+        </p>
+    </form>
+    <!-- a & b -->
+
+    <form class="name9">
+        <p> 
+        <label>Question 9</label><br/>
+        <p>Le modèle OSI est composé de ... couches</p>
+        <input type="checkbox" name="choix1" value="a">8<br/>
+        <input type="checkbox" name="choix2" value="b">5<br/>
+        <input type="checkbox" name="choix3" value="c">7<br/><br/>
+        </p>
+    </form>
+    <!-- 7 -> c -->
+
+    <form class="name10">
+        <p> 
+        <label>Question 10</label><br/>
+        <p>Quelle est la partie qui vous a le plus intéressé</p>
+        <input type="checkbox" name="choix1" value="a">Le Hachage<br/>
+        <input type="checkbox" name="choix2" value="b">Le modèle OSI<br/>
+        <input type="checkbox" name="choix3" value="c">Le Wifi et Bluetooth<br/><br/>
+        </p>
+    </form>
+    <!-- toutes les réponses sont bonnnes -->
+    <footer>
+        <div class="gauche"></div>
+        <div class="droite">
+            <input type="submit" name="valider" value="Valider" id="valider"><br/>
+            <input type="submit" name="retry" value="Recommencer" id="retry"><br/>
+            <a href="correction.htm">Correction</a><br/>
+        </div>
+    </footer>
+</body>
+</html>

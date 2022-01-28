@@ -1,0 +1,30 @@
+body{
+    background-color: #A9A9A9;
+}
+.droite{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#correction{
+    margin-right: 10px;
+}
+
+#retry{
+    margin-right: 10px;
+}
+
+#valider{
+    margin-right: 10px;
+}
+form{
+    background-color:#808080;
+}
+
+h1{
+    color: #808080;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
